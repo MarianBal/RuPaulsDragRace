@@ -1,17 +1,18 @@
-/* line 3, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 body {
   background-color: #f840a1;
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 12, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 body nav {
   width: 100%;
-  height: 70px;
+  height: 66px;
   background-image: url("../img/flag.jpg");
   background-repeat: repeat-x;
   background-size: 5%;
@@ -20,13 +21,43 @@ body nav {
   position: sticky;
   top: 0px;
   z-index: 1;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.49);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/* line 24, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
+body nav input {
+  width: 38%;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-left: 10px;
+}
+/* line 48, ../sass/style.scss */
 body nav .logo {
-  width: 25%;
-  padding: 25px;
+  width: 26%;
+  position: fixed;
+  top: 25px;
+  left: 25px;
 }
-/* line 28, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 body nav .logo img {
   width: 100%;
+}
+/* line 59, ../sass/style.scss */
+body .contenedor {
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  -webkit-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
 }
