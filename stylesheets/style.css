@@ -56,7 +56,6 @@ body nav .logo img {
 /* line 59, ../sass/style.scss */
 body .fondo {
   width: 70%;
-  height: 100vh;
   margin: 0 auto 0 auto;
   background-color: white;
   padding-top: 30px;
@@ -64,7 +63,7 @@ body .fondo {
   -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
 }
-/* line 69, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 body .fondo .botonera {
   width: 100%;
   height: 50px;
@@ -73,7 +72,7 @@ body .fondo .botonera {
   justify-content: center;
   align-items: center;
 }
-/* line 74, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 body .fondo .botonera li {
   width: 160px;
   height: 35px;
@@ -86,7 +85,7 @@ body .fondo .botonera li {
   justify-content: center;
   align-items: center;
 }
-/* line 84, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 body .fondo .botonera li:first-child {
   background-color: #f840a1;
   border-radius: 10px 0px 0px 10px;
@@ -96,7 +95,7 @@ body .fondo .botonera li:first-child {
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.49);
   box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.49);
 }
-/* line 94, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 body .fondo .botonera li:last-child {
   background-color: black;
   border-radius: 0px 10px 10px 0px;
@@ -106,32 +105,85 @@ body .fondo .botonera li:last-child {
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.49);
   box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.49);
 }
-/* line 106, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 body .seasons {
   width: 100%;
   padding: 30px 25px 10px 25px;
-  background-color: red;
+}
+/* line 109, ../sass/style.scss */
+body .seasons h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  text-transform: capitalize;
+  margin: 0;
+}
+/* line 117, ../sass/style.scss */
+body .seasons ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+/* line 122, ../sass/style.scss */
+body .seasons ul li {
+  width: 20%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 127, ../sass/style.scss */
+body .seasons ul li img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 1s ease-out;
+  -moz-transition: -moz-transform 1s ease-out;
+  -o-transition: -o-transform 1s ease-out;
+  -ms-transition: -ms-transform 1s ease-out;
+  transition: transform 1s ease-out;
+}
+/* line 137, ../sass/style.scss */
+body .seasons ul li img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* line 144, ../sass/style.scss */
+body .seasons ul li .nombre {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+  text-transform: capitalize;
+  text-align: left;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 123, ../sass/style.scss */
+  /* line 164, ../sass/style.scss */
   body nav {
     height: 32px;
   }
-  /* line 126, ../sass/style.scss */
+  /* line 167, ../sass/style.scss */
   body nav input {
     width: 50%;
     height: 25px;
     font-size: 12px;
     padding-left: 5px;
   }
-  /* line 133, ../sass/style.scss */
+  /* line 174, ../sass/style.scss */
   body nav .logo {
     width: 22%;
     top: 15px;
     left: 10px;
   }
-  /* line 139, ../sass/style.scss */
+  /* line 180, ../sass/style.scss */
   body .fondo {
     width: 80%;
     padding-top: 20px;
@@ -139,7 +191,7 @@ body .seasons {
     -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
     box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
   }
-  /* line 146, ../sass/style.scss */
+  /* line 187, ../sass/style.scss */
   body .fondo .botonera {
     width: 100%;
     height: 50px;
@@ -148,7 +200,7 @@ body .seasons {
     justify-content: center;
     align-items: center;
   }
-  /* line 151, ../sass/style.scss */
+  /* line 192, ../sass/style.scss */
   body .fondo .botonera li {
     width: 150px;
     height: 30px;

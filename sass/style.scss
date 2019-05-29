@@ -58,7 +58,6 @@ body{
   }
   .fondo{
     width:70%;
-    height: 100vh;
     margin: 0 auto 0 auto;
     background-color: $contenedor;
     padding-top: 30px;
@@ -106,10 +105,52 @@ body{
   .seasons{
     width: 100%;
     padding: 30px 25px 10px 25px;
-    background-color: red;
 
     h2{
-      
+      font-size:22px;
+      font-weight:700;
+      color:$secundario;
+      text-transform: capitalize;
+      margin:0;
+    }
+
+    ul{
+      width: 100%;
+      @include flexbox(row, flex-start, flex-start);
+      flex-wrap: wrap;
+
+      li{
+        width: 20%;
+        padding: 30px;
+        @include flexbox(column, space-between, center);
+
+        img{
+          width:100%;
+          height:auto;
+          cursor: pointer;
+          -webkit-transition:-webkit-transform 1s ease-out;
+          -moz-transition:-moz-transform 1s ease-out;
+          -o-transition:-o-transform 1s ease-out;
+          -ms-transition:-ms-transform 1s ease-out;
+          transition:transform 1s ease-out;
+          }
+          img:hover{
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1)
+          }
+          .nombre{
+            width: 100%;
+            font-size:14px;
+            color: $secundario;
+            margin-top:10px;
+            text-transform:capitalize;
+            text-align: left;
+        }
+
+      }
     }
   }
 
