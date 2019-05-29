@@ -54,7 +54,7 @@ body nav .logo img {
   width: 100%;
 }
 /* line 59, ../sass/style.scss */
-body .contenedor {
+body .fondo {
   width: 70%;
   height: 100vh;
   margin: 0 auto 0 auto;
@@ -65,7 +65,7 @@ body .contenedor {
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
 }
 /* line 69, ../sass/style.scss */
-body .contenedor .botonera {
+body .fondo .botonera {
   width: 100%;
   height: 50px;
   display: flex;
@@ -74,7 +74,7 @@ body .contenedor .botonera {
   align-items: center;
 }
 /* line 74, ../sass/style.scss */
-body .contenedor .botonera li {
+body .fondo .botonera li {
   width: 160px;
   height: 35px;
   padding: 3px;
@@ -87,7 +87,7 @@ body .contenedor .botonera li {
   align-items: center;
 }
 /* line 84, ../sass/style.scss */
-body .contenedor .botonera li:first-child {
+body .fondo .botonera li:first-child {
   background-color: #f840a1;
   border-radius: 10px 0px 0px 10px;
   -moz-border-radius: 10px 0px 0px 10px;
@@ -97,7 +97,7 @@ body .contenedor .botonera li:first-child {
   box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.49);
 }
 /* line 94, ../sass/style.scss */
-body .contenedor .botonera li:last-child {
+body .fondo .botonera li:last-child {
   background-color: black;
   border-radius: 0px 10px 10px 0px;
   -moz-border-radius: 0px 10px 10px 0px;
@@ -106,35 +106,41 @@ body .contenedor .botonera li:last-child {
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.49);
   box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.49);
 }
+/* line 106, ../sass/style.scss */
+body .seasons {
+  width: 100%;
+  padding: 30px 25px 10px 25px;
+  background-color: red;
+}
 
 @media screen and (max-width: 768px) {
-  /* line 112, ../sass/style.scss */
+  /* line 123, ../sass/style.scss */
   body nav {
     height: 32px;
   }
-  /* line 115, ../sass/style.scss */
+  /* line 126, ../sass/style.scss */
   body nav input {
     width: 50%;
     height: 25px;
     font-size: 12px;
     padding-left: 5px;
   }
-  /* line 122, ../sass/style.scss */
+  /* line 133, ../sass/style.scss */
   body nav .logo {
     width: 22%;
     top: 15px;
     left: 10px;
   }
-  /* line 128, ../sass/style.scss */
-  body .contenedor {
+  /* line 139, ../sass/style.scss */
+  body .fondo {
     width: 80%;
     padding-top: 20px;
     -webkit-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
     -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
     box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.49);
   }
-  /* line 135, ../sass/style.scss */
-  body .contenedor .botonera {
+  /* line 146, ../sass/style.scss */
+  body .fondo .botonera {
     width: 100%;
     height: 50px;
     display: flex;
@@ -142,8 +148,8 @@ body .contenedor .botonera li:last-child {
     justify-content: center;
     align-items: center;
   }
-  /* line 140, ../sass/style.scss */
-  body .contenedor .botonera li {
+  /* line 151, ../sass/style.scss */
+  body .fondo .botonera li {
     width: 150px;
     height: 30px;
     font-size: 12px;
