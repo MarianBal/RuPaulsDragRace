@@ -114,12 +114,10 @@ body{
       }
     }
 
-    .temporadas{
+    .cadaTemporada{
       width: 100%;
       padding: 30px 25px 10px 25px;
-
-      .cadaTemporada{
-        margin-bottom: 20px;
+      margin-bottom: 20px;
 
         h2{
           font-size:22px;
@@ -147,25 +145,29 @@ body{
             padding: 30px;
             @include flexbox(column, space-between, center);
 
-            img{
-              width:100%;
-              height:auto;
-              cursor: pointer;
-              -webkit-transition:-webkit-transform 1s ease-out;
-              -moz-transition:-moz-transform 1s ease-out;
-              -o-transition:-o-transform 1s ease-out;
-              -ms-transition:-ms-transform 1s ease-out;
-              transition:transform 1s ease-out;
-            }
+            .img{
 
-            img:hover{
-                -moz-transform: scale(1.05);
-                -webkit-transform: scale(1.05);
-                -o-transform: scale(1.05);
-                -ms-transform: scale(1.05);
-                transform: scale(1.05)
-            }
+              height:150px;
+              overflow: hidden;
 
+              img{
+                width:100%;
+                cursor: pointer;
+                -webkit-transition:-webkit-transform 1s ease-out;
+                -moz-transition:-moz-transform 1s ease-out;
+                -o-transition:-o-transform 1s ease-out;
+                -ms-transition:-ms-transform 1s ease-out;
+                transition:transform 1s ease-out;
+              }
+
+              img:hover{
+                  -moz-transform: scale(1.05);
+                  -webkit-transform: scale(1.05);
+                  -o-transform: scale(1.05);
+                  -ms-transform: scale(1.05);
+                  transform: scale(1.05)
+              }
+            }
             .nombre{
                 width: 100%;
                 font-size:14px;
@@ -184,7 +186,6 @@ body{
           } 
         }
       }
-    }
   }
 }
 
@@ -227,11 +228,9 @@ body{
         }
       }
 
-      .temporadas{
+      .cadaTemporada{
         width: 100%;
         padding: 30px 25px 10px 25px;
-  
-        .cadaTemporada{
   
           ul{
        
@@ -249,7 +248,7 @@ body{
             }
           }
         }
-      }
+      
     }
   }
 }
