@@ -6,7 +6,7 @@ const participantes = document.querySelector('.participantes');
 console.log(participantes)
 
 
-const all = `https://www.nokeynoshade.party/api/queens`
+const all = `http://www.nokeynoshade.party/api/queens/all`
 const winners = `https://www.nokeynoshade.party/api/queens/winners`
 
 fetch(all)
