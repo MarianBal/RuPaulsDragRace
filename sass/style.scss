@@ -226,7 +226,30 @@ body{
           font-size: 12px;
         }
       }
+
+      .temporadas{
+        width: 100%;
+        padding: 30px 25px 10px 25px;
+  
+        .cadaTemporada{
+  
+          ul{
+       
+            li{
+              width: 50%;
+              padding: 30px;  
+  
+              .nombre{
+                  text-align: center;
+              }
+            } 
+
+            li:last-child{
+              display:none;
+            }
+          }
+        }
+      }
     }
   }
-
 }

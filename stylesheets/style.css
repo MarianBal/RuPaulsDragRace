@@ -237,4 +237,22 @@ body .fondo .temporadas .cadaTemporada ul li .nombre:hover {
     height: 30px;
     font-size: 12px;
   }
+  /* line 230, ../sass/style.scss */
+  body .fondo .temporadas {
+    width: 100%;
+    padding: 30px 25px 10px 25px;
+  }
+  /* line 238, ../sass/style.scss */
+  body .fondo .temporadas .cadaTemporada ul li {
+    width: 50%;
+    padding: 30px;
+  }
+  /* line 242, ../sass/style.scss */
+  body .fondo .temporadas .cadaTemporada ul li .nombre {
+    text-align: center;
+  }
+  /* line 247, ../sass/style.scss */
+  body .fondo .temporadas .cadaTemporada ul li:last-child {
+    display: none;
+  }
 }
