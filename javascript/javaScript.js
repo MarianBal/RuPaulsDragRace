@@ -7,7 +7,7 @@ console.log(participantes)
 
 
 const all = `http://www.nokeynoshade.party/api/queens/all`
-const winners = `https://www.nokeynoshade.party/api/queens/winners`
+const winners =`http://www.nokeynoshade.party/api/queens/winners`
 
 fetch(all)
   .then(res => res.json())
